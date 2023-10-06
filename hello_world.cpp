@@ -1,7 +1,10 @@
 #include <iostream>
-using namespace std;
+#include <string>
 int main ()
 {
-cout << "Hello world на языке C++";
+std::string name = "";
+std::cout << "Enter your name" << std::endl;
+std::cin >> name;
+std::cout << "Hello world" + name << std::endl;
 return 0;
 }
